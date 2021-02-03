@@ -1,0 +1,6 @@
+{
+	"coc.preferences.extensionUpdateCheck": "weekly",
+	"suggest.noselect": true,
+	"suggest.enablePreselect": false,
+	"coc.preferences.formatOnSaveFiletypes": [json]
+}
