@@ -18,6 +18,9 @@ call plug#end()
 "====Coc-Nvim
 "====
 
+""" Customize colors
+hi Pmenu ctermbg=black ctermfg=white
+
 " TextEdit might fail if hidden is not set.
 set hidden
 
