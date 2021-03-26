@@ -21,7 +21,8 @@ call plug#end()
 "====
 
 """ Customize colors
-hi Pmenu ctermbg=black ctermfg=white
+hi Pmenu ctermbg=LightGrey ctermfg=Black
+hi PmenuSel ctermbg=DarkGrey ctermfg=White
 
 " TextEdit might fail if hidden is not set.
 set hidden
