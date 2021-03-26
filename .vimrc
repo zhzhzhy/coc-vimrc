@@ -11,6 +11,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'udalov/kotlin-vim'
+
 " Initialize plugin system
 call plug#end()
 
