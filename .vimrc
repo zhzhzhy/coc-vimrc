@@ -20,6 +20,22 @@ call plug#end()
 "====Coc-Nvim
 "====
 
+"""Coc Extensions
+let g:coc_global_extensions = [
+			\'coc-clangd',
+			\'coc-css',
+			\'coc-flutter',
+			\'coc-html',
+			\'coc-json',
+			\'coc-marketplace',
+			\'coc-prettier',
+			\'coc-python',
+			\'coc-translator',
+			\'coc-tsserver',
+			\'coc-vimlsp',
+			\'coc-yaml'
+			\]
+
 """ Customize colors
 hi Pmenu ctermbg=LightGrey ctermfg=Black
 hi PmenuSel ctermbg=DarkGrey ctermfg=White
