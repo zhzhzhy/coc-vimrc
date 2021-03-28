@@ -1,4 +1,9 @@
+" Raw number
 set number
+
+" Set wildmode :
+" Complete longest common string, then each full match,then list alternatives.
+set wildmode=list:longest,full
 
 "====
 "====Plugins
