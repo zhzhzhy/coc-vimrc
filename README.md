@@ -6,7 +6,7 @@ Configuration of my Coc-nvim &amp; Vimrc
 
 2. Copy these Scripts to ~/.vimrc & ~/.vim/coc-settings.json
 
-3.Reopen VIM.
+3. Reopen VIM.
 
 4. Wait Coc Extension installing THEN Execute :PlugInstall to Finish VIM Plugin install
 
