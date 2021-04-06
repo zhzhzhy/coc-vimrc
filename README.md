@@ -11,7 +11,7 @@ sudo apt-get install nodejs npm
 ```
 OR
 ```bash
-pacman -S nodejs npm
+sudo pacman -S nodejs npm
 ```
 
 Note: If you are in China,change the **npm source**(Taobao registry) by following command
