@@ -4,6 +4,20 @@ Configuration of my coc-nvim &amp; Vimrc
 
 1. Installation
 - First Install [coc-nvim](https://github.com/neoclide/coc.nvim)
+Don't forget to install `nodejs` and `npm`
+
+```bash
+sudo apt-get install nodejs npm
+```
+OR
+```bash
+pacman -S nodejs npm
+```
+
+Note: If you are in China,change the **npm source**(Taobao registry) by following command
+```bash
+npm config set registry https://registry.npm.taobao.org
+```
 
 - Install [plug.vim](https://github.com/junegunn/vim-plug)
 
