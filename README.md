@@ -1,8 +1,8 @@
-# Coc-vimrc
+# coc-vimrc
 
-Configuration of my Coc-nvim &amp; Vimrc
+Configuration of my coc-nvim &amp; Vimrc
 
-1. First Install [Coc-nvim](https://github.com/neoclide/coc.nvim)
+1. First Install [coc-nvim](https://github.com/neoclide/coc.nvim)
 
 2. Copy these Scripts to ~/.vimrc & ~/.vim/coc-settings.json
 
