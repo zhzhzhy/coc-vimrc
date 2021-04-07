@@ -5,6 +5,14 @@ set number
 " Complete longest common string, then each full match,then list alternatives.
 set wildmode=list:longest,full
 
+"   see   ->   :help e526
+"   ' Maximum number of previously edited files for which the marks are remembered
+"   < Maximum number of lines saved for each register
+"   s Maximum size of an item in Kbyte.  If zero then registers not saved
+"   '50    Marks will be remembered for the last 50 files you edited.                   
+"   <1000  Contents of registers (up to 1000# lines each) will be
+set viminfo='50,<1000,s100
+
 "====
 "====Plugins
 "====
