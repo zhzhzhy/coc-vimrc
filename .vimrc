@@ -45,6 +45,8 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'tpope/vim-surround'
 
+Plug 'mzlogin/vim-markdown-toc'
+
 " Initialize plugin system
 call plug#end()
 
