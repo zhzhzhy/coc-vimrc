@@ -2,6 +2,16 @@
 
 **Configuration of my coc-nvim &amp; Vimrc**
 
+<!-- vim-markdown-toc GFM -->
+
+* [Installation](#installation)
+* [Plug.vim install](#plugvim-install)
+				* [Unix](#unix)
+				* [Windows (PowerShell)](#windows-powershell)
+* [vim configuration](#vim-configuration)
+
+<!-- vim-markdown-toc -->
+
 ## Installation
 - First Install [coc-nvim](https://github.com/neoclide/coc.nvim)
 Don't forget to install `nodejs` and `npm`
