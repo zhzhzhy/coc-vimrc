@@ -43,6 +43,8 @@ Plug 'Chiel92/vim-autoformat'
 
 Plug 'airblade/vim-gitgutter'
 
+Plug 'tpope/vim-surround'
+
 " Initialize plugin system
 call plug#end()
 
