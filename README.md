@@ -1,8 +1,8 @@
 # coc-vimrc
 
-Configuration of my coc-nvim &amp; Vimrc
+**Configuration of my coc-nvim &amp; Vimrc**
 
-1. Installation
+## Installation
 - First Install [coc-nvim](https://github.com/neoclide/coc.nvim)
 Don't forget to install `nodejs` and `npm`
 
@@ -19,12 +19,12 @@ Note: If you are in China,change the **npm source**(Taobao registry) by followin
 npm config set registry https://registry.npm.taobao.org
 ```
 
+## Plug.vim install
+
 - Install [plug.vim](https://github.com/junegunn/vim-plug)
 
 [Download plug.vim](https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim)
 and put it in the "autoload" directory.
-
-#### Vim
 
 ###### Unix
 
@@ -45,13 +45,13 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
     ni $HOME/vimfiles/autoload/plug.vim -Force
 ```
 
+## vim configuration
+1. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json
 
-2. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json
+2. Reopen VIM.
 
-3. Reopen VIM.
+3. Wait Coc Extension installing finished
 
-4. Wait Coc Extension installing finished
+4. Execute :PlugInstall to Finish VIM Plugin install
 
-5. Execute :PlugInstall to Finish VIM Plugin install
-
-6. Configure the rest components
+5. Configure the rest components
