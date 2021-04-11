@@ -86,7 +86,7 @@ Repo link: [undotree](https://github.com/mbbill/undotree)
 
 ### vim-easy-align
 
-Repo link: (vim-easy-align)[https://github.com/junegunn/vim-easy-align]
+Repo link: [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 
 ### calendar.vim
 
@@ -98,7 +98,7 @@ Repo link: [vim-autoformat](https://github.com/Chiel92/vim-autoformat)
 
 ### vim-gitgutter
 
-Repo link: (vim-gitgutter)[https://github.com/airblade/vim-gitgutter]
+Repo link: [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 
 ### vim-surround
 
