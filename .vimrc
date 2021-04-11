@@ -41,6 +41,8 @@ Plug 'itchyny/calendar.vim'
 
 Plug 'Chiel92/vim-autoformat'
 
+Plug 'airblade/vim-gitgutter'
+
 " Initialize plugin system
 call plug#end()
 
