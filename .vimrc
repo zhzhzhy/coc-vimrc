@@ -1,5 +1,10 @@
 " Raw number
 set number
+set relativenumber
+
+" Toggle absolute and relative numbering in VIM by insert/normal mode
+autocmd InsertEnter * :set norelativenumber 
+autocmd InsertLeave * :set relativenumber
 
 " Set wildmode :
 " Complete longest common string, then each full match,then list alternatives.
