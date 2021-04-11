@@ -8,6 +8,21 @@
 * [Plug.vim install](#plugvim-install)
 				* [Unix](#unix)
 				* [Windows (PowerShell)](#windows-powershell)
+* [Plugin explanation & key mapping](#plugin-explanation--key-mapping)
+	* [vim plugins](#vim-plugins)
+		* [coc.nvim](#cocnvim)
+		* [kotlin-vim](#kotlin-vim)
+		* [vim-visual-multi](#vim-visual-multi)
+		* [undotree](#undotree)
+		* [vim-easy-align](#vim-easy-align)
+		* [calendar.vim](#calendarvim)
+		* [vim-autoformat](#vim-autoformat)
+		* [vim-gitgutter](#vim-gitgutter)
+		* [vim-surround](#vim-surround)
+		* [vim-markdown-toc](#vim-markdown-toc)
+	* [coc-nvim extensions](#coc-nvim-extensions)
+		* [Language servers](#language-servers)
+		* [other coc extensions](#other-coc-extensions)
 * [vim configuration](#vim-configuration)
 
 <!-- vim-markdown-toc -->
@@ -54,6 +69,94 @@ file as suggested [here][auto].
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
     ni $HOME/vimfiles/autoload/plug.vim -Force
 ```
+## Plugin explanation & key mapping
+
+### vim plugins
+
+#### [coc.nvim](https://github.com/neoclide/coc.nvim)
+
+    Follow [coc.nvim](#cocnvim)
+
+#### [kotlin-vim](https://github.com/udalov/kotlin-vim)
+
+
+#### [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
+
+
+#### [undotree](https://github.com/mbbill/undotree)
+
+
+#### [vim-easy-align](https://github.com/junegunn/vim-easy-align)
+
+
+#### [calendar.vim](https://github.com/itchyny/calendar.vim)
+
+
+#### [vim-autoformat](https://github.com/Chiel92/vim-autoformat)
+
+
+#### [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+
+
+#### [vim-surround](https://github.com/tpope/vim-surround)
+
+
+#### [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
+
+### coc-nvim extensions
+
+#### Language servers
+ ##### [coc-clangd](https://github.com/clangd/coc-clangd)
+ ##### [coc-css](https://github.com/neoclide/coc-css)
+ ##### [coc-flutter](https://github.com/iamcco/coc-flutter)
+ ##### [coc-html](https://github.com/neoclide/coc-html)
+ ##### [coc-json](https://github.com/neoclide/coc-json)
+ ##### [coc-python](https://github.com/neoclide/coc-python)
+ ##### [coc-tsserver](https://github.com/neoclide/coc-tsserver)
+ ##### [coc-vimlsp](https://github.com/iamcco/coc-vimlsp)
+ ##### [coc-yaml](https://github.com/neoclide/coc-yaml)
+
+#### other coc extensions
+ 
+ ##### [coc-marketplace](https://github.com/fannheyward/coc-marketplace)
+[coc.nvim](https://github.com/neoclide/coc.nvim)  extensions marketplace.
+
+* search `keywords:coc.nvim` from npmjs.com, display extensions in `coc-lists`
+* extension name starts with `√` means installed already, with an `uninstall` action
+* extension name starts with `x` means uninstalled, with an `install` action
+* extension name ends with `*` is published by @chemzqm, IMO, is official
+
+![coc-marketplace](https://i.loli.net/2019/06/06/5cf885c18736a85017.png) 
+
+ ##### [coc-prettier](https://github.com/neoclide/coc-prettier)
+ 
+    you can use `:Prettier` to format current buffer.
+    your can `<leader>f` for range format.
+
+    Prettier range format only support languageId including: `javascript`,
+`javascriptreact`, `typescript`, `typescriptreact`, `json` and `graphql`.
+
+
+ ###### Update your `coc-settings.json` for format on save
+
+Open settings file with:
+
+    :CocConfig
+
+Add:
+
+```
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
+```
+
+to setup the languages which you want to format on save.
+
+ ##### [coc-snippets](https://github.com/neoclide/coc-snippets)
+ 
+ ##### [coc-explorer](https://github.com/weirongxu/coc-explorer)
+
+ ##### [coc-translator](https://github.com/voldikss/coc-translator)
+ 
 
 ## vim configuration
 1. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json

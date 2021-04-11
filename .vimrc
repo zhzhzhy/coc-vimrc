@@ -286,3 +286,11 @@ nmap ga <Plug>(EasyAlign)
 
 " Autoformat
 noremap <F3> :Autoformat<CR>
+
+" Setup prettier commands
+" Then you can use :Prettier to format current buffer.
+" Then your can <leader>f for range format.
+" Prettier range format only support languageId including: javascript, javascriptreact, typescript, typescriptreact, json and graphql.
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+vmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)
