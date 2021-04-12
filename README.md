@@ -91,7 +91,7 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 
 #### [coc.nvim](https://github.com/neoclide/coc.nvim)
 
-    Follow [Installation](#installation)
+Follow [Installation](#installation)
 
 #### [kotlin-vim](https://github.com/udalov/kotlin-vim)
 
