@@ -400,11 +400,10 @@ You can limit the scope with blockwise-visual mode.
 
 ##### [coc-prettier](https://github.com/neoclide/coc-prettier)
  
-    you can use `:Prettier` to format current buffer.
-    your can `<leader>f` for range format.
-
-    Prettier range format only support languageId including: `javascript`,
-`javascriptreact`, `typescript`, `typescriptreact`, `json` and `graphql`.
+you can use `:Prettier` to format current buffer.
+your can `<leader>f` for range format.
+ 
+Prettier range format only support languageId including: `javascript`,`javascriptreact`, `typescript`, `typescriptreact`, `json` and `graphql`.
 
 
 ###### Update your `coc-settings.json` for format on save
