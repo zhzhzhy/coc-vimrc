@@ -701,7 +701,7 @@ Make `<tab>` used for trigger completion, completion confirm, snippet expand and
 
 Explorer extension for [coc.nvim](https://github.com/neoclide/coc.nvim)
 
-![image](https://user-images.githubusercontent.com/1709861/76720263-471be100-6777-11ea-82c1-614627097b02.png
+![image](https://user-images.githubusercontent.com/1709861/76720263-471be100-6777-11ea-82c1-614627097b02.png)
 
 * Open explorer
    ```
