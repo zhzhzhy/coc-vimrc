@@ -66,7 +66,7 @@
 			* [coc-snippets](#coc-snippets)
 			* [coc-explorer](#coc-explorer)
 			* [coc-translator](#coc-translator)
-* [vim configuration](#vim-configuration)
+* [vim configuration: Howto use these script](#vim-configuration-howto-use-these-script)
 
 <!-- vim-markdown-toc -->
 
@@ -720,13 +720,16 @@ Translation extension for [coc.nvim](https://github.com/neoclide/coc.nvim).
 | `<Leader>` `t` | echo    |
 | `<Leader>` `t` | replace |
 
-## vim configuration
+## vim configuration: Howto use these script
+
+**Notice: These config files suit my own needs,Please **DO NOT** just copy this configuration folder without really understanding about it! Please, at least, read this README file!**
+
 1. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json
 
 2. Reopen VIM.
 
 3. Wait Coc Extension installing finished
 
-4. Execute :PlugInstall to Finish VIM Plugin install
+4. Execute `:PlugInstall` to Finish VIM Plugin install
 
 5. Configure the rest components
