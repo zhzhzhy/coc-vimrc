@@ -171,12 +171,12 @@ to setup the languages which you want to format on save.
  
  | Shortcut                  | Action                                                                                      |
  | :----:                      | :----:                                                                                        |
- | `Insert Mode`  `Ctrl` `l` | coc-snippets-expand(trigger snippet expand)                                                 |
- | `Visual Mode`  `Ctrl` `j` | coc-snippets-select(select text for visual placeholder of snippet)                          |
- | `Ctrl` `j`                | coc_snippet_next(jump to next placeholder, it's default of coc.nvim)                        |
- | `Ctrl` `k`                | coc_snippet_prev(jump to previous placeholder, it's default of coc.nvim)                    |
- | `xmap` `<leader>` `x`     | coc-convert-snippet (Use <leader>x for convert visual selected code to snippet)             |
- | `imap` `<C-j>` `<Plug>`   | coc-snippets-expand-jump (Use <C-j> for both expand and jump (make expand higher priority.) |
+ | `Insert Mode`  `Ctrl` `l` | coc-snippets-expand<br>(trigger snippet expand)                                                 |
+ | `Visual Mode`  `Ctrl` `j` | coc-snippets-select<br>(select text for visual placeholder of snippet)                          |
+ | `Ctrl` `j`                | coc_snippet_next<br>(jump to next placeholder, it's default of coc.nvim)                        |
+ | `Ctrl` `k`                | coc_snippet_prev<br>(jump to previous placeholder, it's default of coc.nvim)                    |
+ | `xmap` `<leader>` `x`     | coc-convert-snippet <br>(Use <leader>x for convert visual selected code to snippet)             |
+ | `imap` `<C-j>` `<Plug>`   | coc-snippets-expand-jump <br>(Use <C-j> for both expand and jump (make expand higher priority.) |
 
 
 
