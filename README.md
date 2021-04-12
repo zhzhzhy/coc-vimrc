@@ -722,7 +722,7 @@ Translation extension for [coc.nvim](https://github.com/neoclide/coc.nvim).
 
 ## vim configuration: How to use these scripts
 
-**Notice**: These config files suit my own needs,Please **DO NOT** just copy this configuration folder without really understanding about it! Please, at least, read this README file!**
+**Notice**: These config files suit my own needs,Please **DO NOT** just copy this configuration folder without really understanding about it! Please, at least, read this README file!
 
 1. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json
 
