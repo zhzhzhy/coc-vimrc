@@ -151,6 +151,8 @@ The wiki was the first documentation for the plugin, but many pictures are
 outdated and contain wrong mappings. Still, you can take a look.
 
 You could read at least the [Quick Start](https://github.com/mg979/vim-visual-multi/wiki/Quick-start).
+ 
+ Quick refer the [Key mapping](https://github.com/mg979/vim-visual-multi/wiki/Mappings)
 
 Insert mode with autocomplete, alignment (mappings in pic have changed, don't trust them)
 
