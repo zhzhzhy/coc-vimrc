@@ -68,45 +68,35 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 ## Plugin explanation & key mapping
 
 
-### coc.nvim
+### [coc.nvim](https://github.com/neoclide/coc.nvim)
 
-Repo link: [coc.nvim](https://github.com/neoclide/coc.nvim)
 
-### kotlin-vim
+### [kotlin-vim](https://github.com/udalov/kotlin-vim)
 
-Repo link: [kotlin-vim](https://github.com/udalov/kotlin-vim)
 
-### vim-visual-multi
+### [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 
-Repo link: [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 
-### undotree
+### [undotree](https://github.com/mbbill/undotree)
 
-Repo link: [undotree](https://github.com/mbbill/undotree)
 
-### vim-easy-align
+### [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 
-Repo link: [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 
-### calendar.vim
+### [calendar.vim](https://github.com/itchyny/calendar.vim)
 
-Repo link: [calendar.vim](https://github.com/itchyny/calendar.vim)
 
-### vim-autoformat
+### [vim-autoformat](https://github.com/Chiel92/vim-autoformat)
 
-Repo link: [vim-autoformat](https://github.com/Chiel92/vim-autoformat)
 
-### vim-gitgutter
+### [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 
-Repo link: [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 
-### vim-surround
+### [vim-surround](https://github.com/tpope/vim-surround)
 
-Repo link: [vim-surround](https://github.com/tpope/vim-surround)
 
-### vim-markdown-toc
+### [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
 
-Repo link: [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
 
 ## vim configuration
 1. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json
