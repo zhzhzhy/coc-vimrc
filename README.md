@@ -47,6 +47,9 @@
 		* [vim-markdown-toc](#vim-markdown-toc)
 	* [Update existing table of contents](#update-existing-table-of-contents)
 	* [Remove table of contents](#remove-table-of-contents)
+		* [vim-airline](#vim-airline)
+			* [Smarter tab line](#smarter-tab-line)
+		* [vim-airline-themes](#vim-airline-themes)
 	* [coc-nvim extensions](#coc-nvim-extensions)
 		* [Language servers](#language-servers)
 			* [coc-clangd](#coc-clangd)
@@ -629,6 +632,28 @@ The `:UpdateToc` command, which is designed to update toc manually, can only wor
 ### Remove table of contents
 
 `:RemoveToc` command will do this for you, just remember keep insert fence option by default.
+
+#### [vim-airline](https://github.com/vim-airline/vim-airline)
+
+Lean & mean status/tabline for vim that's light as air.
+
+![img](https://github.com/vim-airline/vim-airline/wiki/screenshots/demo.gif)
+
+When the plugin is correctly loaded, there will be a nice statusline at the
+bottom of each vim window.
+
+##### Smarter tab line
+
+Automatically displays all buffers when there's only one tab open.
+
+![tabline](https://f.cloud.github.com/assets/306502/1072623/44c292a0-1495-11e3-9ce6-dcada3f1c536.gif)
+
+This is disabled by default; add the following to your vimrc to enable the extension:
+
+    let g:airline#extensions#tabline#enabled = 1
+
+
+#### [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 
 
 ### coc-nvim extensions
