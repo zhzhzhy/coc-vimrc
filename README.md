@@ -20,6 +20,15 @@
 		* [undotree](#undotree)
 			* [Usage](#usage)
 		* [vim-easy-align](#vim-easy-align)
+			* [Demo](#demo)
+				* [Using predefined alignment rules](#using-predefined-alignment-rules)
+				* [`=`](#)
+				* [`<Space>`](#space)
+				* [`,`](#-1)
+				* [Using regular expression](#using-regular-expression)
+				* [Aligning table cells](#aligning-table-cells)
+				* [Syntax-aware alignment](#syntax-aware-alignment)
+				* [Using blockwise-visual mode](#using-blockwise-visual-mode)
 		* [calendar.vim](#calendarvim)
 		* [vim-autoformat](#vim-autoformat)
 		* [vim-gitgutter](#vim-gitgutter)
@@ -249,6 +258,101 @@ endif
 
 #### [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 
+**A simple, easy-to-use Vim alignment plugin.**
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/equals.gif)
+
+`ga` + **symbol** in normal or visual mode to align text based on **symbol**
+
+- with the following lines of text,
+
+```
+apple   =red
+grass+=green
+sky-=   blue
+```
+
+try these commands:
+
+- `vipga=`
+    - `v`isual-select `i`nner `p`aragraph
+    - Start EasyAlign command (`ga`)
+    - Align around `=`
+- `gaip=`
+    - Start EasyAlign command (`ga`) for `i`nner `p`aragraph
+    - Align around `=`
+
+##### Demo
+
+
+###### Using predefined alignment rules
+
+An *alignment rule* is a predefined set of options for common alignment tasks,
+which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
+`|`, `&`, `#`, and `,`.
+
+###### `=`
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/equals.gif)
+
+- `=` Around the 1st occurrences
+- `2=` Around the 2nd occurrences
+- `*=` Around all occurrences
+- `**=` Left/Right alternating alignment around all occurrences
+- `<Enter>` Switching between left/right/center alignment modes
+
+###### `<Space>`
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/spaces.gif)
+ 
+- `<Space>` Around the 1st occurrences of whitespaces
+- `2<Space>` Around the 2nd occurrences
+- `-<Space>` Around the last occurrences
+- `<Enter><Enter>2<Space>` Center-alignment around the 2nd occurrences
+
+###### `,`
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/commas.gif)
+
+- The predefined comma-rule places a comma right next to the preceding token
+  without margin (`{'stick_to_left': 1, 'left_margin': 0}`)
+- You can change it with `<Right>` arrow
+
+###### Using regular expression
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/regex.gif)
+
+You can use an arbitrary regular expression by
+- pressing `<Ctrl-X>` in interactive mode
+- or using `:EasyAlign /REGEX/` command in visual mode or in normal mode with
+  a range (e.g. `:%`)
+
+Different ways to start
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/modes.gif)
+
+This demo shows how you can start interactive mode with visual selection or use
+non-interactive `:EasyAlign` command.
+
+###### Aligning table cells
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/tables.gif)
+
+
+Check out various alignment options and "live interactive mode".
+
+###### Syntax-aware alignment
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/yaml.gif)
+
+
+Delimiters in strings and comments are ignored by default.
+
+###### Using blockwise-visual mode
+
+![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/blockwise-visual.gif)
+
+You can limit the scope with blockwise-visual mode.
 
 #### [calendar.vim](https://github.com/itchyny/calendar.vim)
 
