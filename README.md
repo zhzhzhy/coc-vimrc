@@ -598,27 +598,27 @@ visual mode) followed by `S<p class="important">`.
 
 1. `:GenTocGFM`
 
-    Generate table of contents in [GFM][2] link style.
+    Generate table of contents in [GFM](https://github.github.com/gfm/) link style.
 
     This command is suitable for Markdown files in GitHub repositories, like `README.md`, and Markdown files for GitBook.
 
 2. `:GenTocRedcarpet`
 
-    Generate table of contents in [Redcarpet][3] link style.
+    Generate table of contents in [Redcarpet](https://github.com/vmg/redcarpet) link style.
 
     This command is suitable for Jekyll or anywhere else use Redcarpet as its Markdown parser.
 
 3. `:GenTocGitLab`
 
-    Generate table of contents in [GitLab][9] link style.
+    Generate table of contents in [GitLab](https://docs.gitlab.com/ee/user/markdown.html) link style.
 
     This command is suitable for GitLab repository and wiki.
 
 4. `:GenTocMarked`
 
-    Generate table of contents for [iamcco/markdown-preview.vim][10] which use [Marked][11] markdown parser.
+    Generate table of contents for [iamcco/markdown-preview.vim][10] which use [Marked](https://github.com/iamcco/markdown-preview.vim) markdown parser.
 
-You can view [here][1] to know differences between *GFM* and *Redcarpet* style toc links.
+You can view [here](http://mazhuang.org/2015/12/05/diff-between-gfm-and-redcarpet/) to know differences between *GFM* and *Redcarpet* style toc links.
 
 ### Update existing table of contents
 
