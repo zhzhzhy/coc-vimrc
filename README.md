@@ -616,7 +616,7 @@ visual mode) followed by `S<p class="important">`.
 
 4. `:GenTocMarked`
 
-    Generate table of contents for [iamcco/markdown-preview.vim][10] which use [Marked](https://github.com/iamcco/markdown-preview.vim) markdown parser.
+    Generate table of contents for [iamcco/markdown-preview.vim][https://github.com/iamcco/markdown-preview.vim] which use [Marked](https://github.com/markedjs/marked) markdown parser.
 
 You can view [here](http://mazhuang.org/2015/12/05/diff-between-gfm-and-redcarpet/) to know differences between *GFM* and *Redcarpet* style toc links.
 
