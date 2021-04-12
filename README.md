@@ -34,6 +34,7 @@
 			* [coc-yaml](#coc-yaml)
 	* [other coc extensions](#other-coc-extensions)
 		* [coc-marketplace](#coc-marketplace)
+			* [Usage](#usage)
 		* [coc-prettier](#coc-prettier)
 			* [Update your `coc-settings.json` for format on save](#update-your-coc-settingsjson-for-format-on-save)
 		* [coc-snippets](#coc-snippets)
@@ -141,6 +142,11 @@ Follow [Installation](#installation)
 * extension name starts with `√` means installed already, with an `uninstall` action
 * extension name starts with `x` means uninstalled, with an `install` action
 * extension name ends with `*` is published by @chemzqm, IMO, is official
+
+##### Usage
+
+* `:CocList marketplace` list all available extensions
+* `:CocList marketplace python` to search extension that name contains `python`
 
 ![coc-marketplace](https://i.loli.net/2019/06/06/5cf885c18736a85017.png) 
 
