@@ -18,6 +18,7 @@
 			* [Documentation](#documentation)
 			* [Wiki](#wiki)
 		* [undotree](#undotree)
+			* [Usage](#usage)
 		* [vim-easy-align](#vim-easy-align)
 		* [calendar.vim](#calendarvim)
 		* [vim-autoformat](#vim-autoformat)
@@ -37,7 +38,7 @@
 			* [coc-yaml](#coc-yaml)
 	* [other coc extensions](#other-coc-extensions)
 		* [coc-marketplace](#coc-marketplace)
-			* [Usage](#usage)
+			* [Usage](#usage-1)
 		* [coc-prettier](#coc-prettier)
 			* [Update your `coc-settings.json` for format on save](#update-your-coc-settingsjson-for-format-on-save)
 		* [coc-snippets](#coc-snippets)
@@ -206,6 +207,45 @@ Find words under cursor, add new words (patterns stack), navigate regions, skip 
 
 #### [undotree](https://github.com/mbbill/undotree)
 
+![](https://sites.google.com/site/mbbill/undotree_new.png)
+
+##### Usage
+
+| Shortcut                  | Action                       |
+| :----:                    | :----:                       |
+| `:UndotreeToggle` OR `F5` | toggle the undo-tree panel.  |
+| `:redo` OR `<ctrl-r>`     | restore                      |
+| `[ number ]`              | marks the most recent change |
+
+ 1. Use `:UndotreeToggle` to toggle the undo-tree panel. You may want to map this command to whatever hotkey by adding the following line to your vimrc, take `F5` for example.
+```
+nnoremap <F5> :UndotreeToggle<CR>
+```
+ 1. Markers
+    * Every change has a sequence number and it is displayed before timestamps.
+    * The current state is marked as `> number <`.
+    * The next state which will be restored by ``:redo`:redo` or ``<ctrl-r>`<ctrl-r>` is marked as `{ number }`.
+    * The `[ number ]` marks the most recent change.
+    * The undo history is sorted by timestamps.
+    * Saved changes are marked as `s` and the big `S` indicates the most recent saved change.
+ 1. Press `?` in undotree window for quick help.
+ 1. Persistent undo
+    * Usually I would like to store the undo files in a seperate place like below.
+
+```
+if has("persistent_undo")
+   let target_path = expand('~/.undodir')
+
+    " create the directory and any parent directories
+    " if the location does not exist.
+    if !isdirectory(target_path)
+        call mkdir(target_path, "p", 0700)
+    endif
+
+    let &undodir=target_path
+    set undofile
+endif
+```
 
 #### [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 
