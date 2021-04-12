@@ -14,6 +14,9 @@
 		* [coc.nvim](#cocnvim)
 		* [kotlin-vim](#kotlin-vim)
 		* [vim-visual-multi](#vim-visual-multi)
+			* [Basic usage:](#basic-usage)
+			* [Documentation](#documentation)
+			* [Wiki](#wiki)
 		* [undotree](#undotree)
 		* [vim-easy-align](#vim-easy-align)
 		* [calendar.vim](#calendarvim)
@@ -99,6 +102,99 @@ Follow [Installation](#installation)
 
 #### [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 
+| Shortcut     | Action                                             |
+| :------------: | :--------------------------------------------------: |
+| `Ctrl`+`n`   | **Select next key (multiple cursors)**             |
+| `q`          | **Deselect the current keys (multiple cursors)**   |
+| `N`          | Select the previous key                            |
+| `n`          | Select the next key                                |
+| `Esc`        | Quit mutiple cursors                               |
+
+##### Basic usage:
+
+- select words with <kbd>Ctrl-N</kbd> (like `Ctrl-d` in Sublime Text/VS Code)
+- create cursors vertically with <kbd>Ctrl-Down</kbd>/<kbd>Ctrl-Up</kbd>
+- select one character at a time with <kbd>Shift-Arrows</kbd>
+- press <kbd>n</kbd>/<kbd>N</kbd> to get next/previous occurrence
+- press <kbd>[</kbd>/<kbd>]</kbd> to select next/previous cursor
+- press <kbd>q</kbd> to skip current and get next occurrence
+- press <kbd>Q</kbd> to remove current cursor/selection
+- start insert mode with <kbd>i</kbd>,<kbd>a</kbd>,<kbd>I</kbd>,<kbd>A</kbd>
+
+Two main modes:
+
+- in _cursor mode_ commands work as they would in normal mode
+- in _extend mode_ commands work as they would in visual mode
+- press <kbd>Tab</kbd> to switch between «cursor» and «extend» mode
+
+Most vim commands work as expected (motions, <kbd>r</kbd> to replace characters, <kbd>~</kbd> to change case, etc). Additionally you can:
+
+- run macros/ex/normal commands at cursors
+- align cursors
+- transpose selections
+- add patterns with regex, or from visual mode
+
+And more... of course, you can enter insert mode and autocomplete will work.
+
+
+##### Documentation
+
+    :help visual-multi
+
+For some specific topic it's often:
+
+    :help vm-some-topic
+
+##### [Wiki](https://github.com/mg979/vim-visual-multi/wiki)
+
+The wiki was the first documentation for the plugin, but many pictures are
+outdated and contain wrong mappings. Still, you can take a look.
+
+You could read at least the [Quick Start](https://github.com/mg979/vim-visual-multi/wiki/Quick-start).
+
+Insert mode with autocomplete, alignment (mappings in pic have changed, don't trust them)
+
+![Imgur](https://i.imgur.com/u5pPY5W.gif)
+
+-------
+Undo/Redo edits and selections
+
+![Imgur](https://i.imgur.com/gwFfUxq.gif)
+
+-------
+Alternate cursor/extend mode, motions (even %), reverse direction (as in visual mode) and extend from the back. At any time you can switch from extend to cursor mode and viceversa.
+
+![Imgur](https://i.imgur.com/ggQr1Ve.gif)
+
+-------
+Select inside/around brackets/quotes/etc:
+
+![Imgur](https://i.imgur.com/GAXQLao.gif)
+
+-------
+Select operator, here shown with 'wellle/targets.vim' plugin: sib, sia, saa + selection shift
+
+![Imgur](https://i.imgur.com/yM3Fele.gif)
+
+-------
+Synched column transposition
+
+![Imgur](https://i.imgur.com/9JDaLBi.gif)
+
+-------
+Unsynched transposition (cycle all regions, also in different lines)
+
+![Imgur](https://i.imgur.com/UQOCxyf.gif)
+
+-------
+Shift regions left and right (M-S-\<\>)
+
+![Imgur](https://i.imgur.com/Q7EF8YI.gif)
+
+------
+Find words under cursor, add new words (patterns stack), navigate regions, skip them, add regions with regex.
+
+![Imgur](https://i.imgur.com/zWtelNO.gif)
 
 #### [undotree](https://github.com/mbbill/undotree)
 
@@ -184,6 +280,7 @@ to setup the languages which you want to format on save.
  | `xmap` `<leader>` `x`     | coc-convert-snippet <br>(Use <leader>x for convert visual selected code to snippet)             |
  | `imap` `<C-j>` `<Plug>`   | coc-snippets-expand-jump <br>(Use <C-j> for both expand and jump (make expand higher priority.) |
 
+Make `<tab>` used for trigger completion, completion confirm, snippet expand and jump like VSCode.
 
 
 #### [coc-explorer](https://github.com/weirongxu/coc-explorer)
