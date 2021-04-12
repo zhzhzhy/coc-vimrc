@@ -22,7 +22,7 @@
 		* [vim-markdown-toc](#vim-markdown-toc)
 	* [coc-nvim extensions](#coc-nvim-extensions)
 		* [Language servers](#language-servers)
-		* [other coc extensions](#other-coc-extensions)
+	* [other coc extensions](#other-coc-extensions)
 * [vim configuration](#vim-configuration)
 
 <!-- vim-markdown-toc -->
@@ -116,7 +116,7 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
  ##### [coc-vimlsp](https://github.com/iamcco/coc-vimlsp)
  ##### [coc-yaml](https://github.com/neoclide/coc-yaml)
 
-#### other coc extensions
+### other coc extensions
  
  ##### [coc-marketplace](https://github.com/fannheyward/coc-marketplace)
 [coc.nvim](https://github.com/neoclide/coc.nvim)  extensions marketplace.
