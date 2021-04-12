@@ -49,7 +49,7 @@
 	* [Remove table of contents](#remove-table-of-contents)
 		* [vim-airline](#vim-airline)
 			* [Smarter tab line](#smarter-tab-line)
-		* [vim-airline-themes](#vim-airline-themes)
+			* [vim-airline-themes](#vim-airline-themes)
 	* [coc-nvim extensions](#coc-nvim-extensions)
 		* [Language servers](#language-servers)
 			* [coc-clangd](#coc-clangd)
@@ -653,7 +653,7 @@ This is disabled by default; add the following to your vimrc to enable the exten
     let g:airline#extensions#tabline#enabled = 1
 
 
-#### [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
+##### [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
 
 
 ### coc-nvim extensions
