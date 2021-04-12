@@ -45,14 +45,14 @@
 			* [coc-tsserver](#coc-tsserver)
 			* [coc-vimlsp](#coc-vimlsp)
 			* [coc-yaml](#coc-yaml)
-	* [other coc extensions](#other-coc-extensions)
-		* [coc-marketplace](#coc-marketplace)
-			* [Usage](#usage-1)
-		* [coc-prettier](#coc-prettier)
-			* [Update your `coc-settings.json` for format on save](#update-your-coc-settingsjson-for-format-on-save)
-		* [coc-snippets](#coc-snippets)
-		* [coc-explorer](#coc-explorer)
-		* [coc-translator](#coc-translator)
+		* [Other coc extensions](#other-coc-extensions)
+			* [coc-marketplace](#coc-marketplace)
+				* [Usage](#usage-1)
+			* [coc-prettier](#coc-prettier)
+				* [Update your `coc-settings.json` for format on save](#update-your-coc-settingsjson-for-format-on-save)
+			* [coc-snippets](#coc-snippets)
+			* [coc-explorer](#coc-explorer)
+			* [coc-translator](#coc-translator)
 * [vim configuration](#vim-configuration)
 
 <!-- vim-markdown-toc -->
@@ -381,9 +381,9 @@ You can limit the scope with blockwise-visual mode.
 ##### [coc-vimlsp](https://github.com/iamcco/coc-vimlsp)
 ##### [coc-yaml](https://github.com/neoclide/coc-yaml)
 
-### other coc extensions
+#### Other coc extensions
  
-#### [coc-marketplace](https://github.com/fannheyward/coc-marketplace)
+##### [coc-marketplace](https://github.com/fannheyward/coc-marketplace)
 [coc.nvim](https://github.com/neoclide/coc.nvim)  extensions marketplace.
 
 * search `keywords:coc.nvim` from npmjs.com, display extensions in `coc-lists`
@@ -391,14 +391,14 @@ You can limit the scope with blockwise-visual mode.
 * extension name starts with `x` means uninstalled, with an `install` action
 * extension name ends with `*` is published by @chemzqm, IMO, is official
 
-##### Usage
+###### Usage
 
 * `:CocList marketplace` list all available extensions
 * `:CocList marketplace python` to search extension that name contains `python`
 
 ![coc-marketplace](https://i.loli.net/2019/06/06/5cf885c18736a85017.png) 
 
-#### [coc-prettier](https://github.com/neoclide/coc-prettier)
+##### [coc-prettier](https://github.com/neoclide/coc-prettier)
  
     you can use `:Prettier` to format current buffer.
     your can `<leader>f` for range format.
@@ -407,7 +407,7 @@ You can limit the scope with blockwise-visual mode.
 `javascriptreact`, `typescript`, `typescriptreact`, `json` and `graphql`.
 
 
-##### Update your `coc-settings.json` for format on save
+###### Update your `coc-settings.json` for format on save
 
 Open settings file with:
 
@@ -421,7 +421,7 @@ Add:
 
 to setup the languages which you want to format on save.
 
-#### [coc-snippets](https://github.com/neoclide/coc-snippets)
+##### [coc-snippets](https://github.com/neoclide/coc-snippets)
  
  | Shortcut                  | Action                                                                                      |
  | :----:                      | :----:                                                                                        |
@@ -435,9 +435,9 @@ to setup the languages which you want to format on save.
 Make `<tab>` used for trigger completion, completion confirm, snippet expand and jump like VSCode.
 
 
-#### [coc-explorer](https://github.com/weirongxu/coc-explorer)
+##### [coc-explorer](https://github.com/weirongxu/coc-explorer)
 
-#### [coc-translator](https://github.com/voldikss/coc-translator)
+##### [coc-translator](https://github.com/voldikss/coc-translator)
  
 
 ## vim configuration
