@@ -110,6 +110,12 @@ Follow [Installation](#installation)
 | `n`          | Select the next key                                |
 | `Esc`        | Quit mutiple cursors                               |
 
+To minimize chances for conflicts, a leader that is specific to VM is defined. The default is `\\` (two backslashes), but you can change it by setting:
+
+```
+let g:VM_leader = {your VM leader}
+```
+
 ##### Basic usage:
 
 - select words with <kbd>Ctrl-N</kbd> (like `Ctrl-d` in Sublime Text/VS Code)
