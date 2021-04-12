@@ -169,6 +169,17 @@ to setup the languages which you want to format on save.
 
 #### [coc-snippets](https://github.com/neoclide/coc-snippets)
  
+ | Shortcut                  | Action                                                                                      |
+ | ----                      | ----                                                                                        |
+ | `Insert Mode`  `Ctrl` `l` | coc-snippets-expand(trigger snippet expand)                                                 |
+ | `Visual Mode`  `Ctrl` `j` | coc-snippets-select(select text for visual placeholder of snippet)                          |
+ | `Ctrl` `j`                | coc_snippet_next(jump to next placeholder, it's default of coc.nvim)                        |
+ | `Ctrl` `k`                | coc_snippet_prev(jump to previous placeholder, it's default of coc.nvim)                    |
+ | `xmap` `<leader>` `x`     | coc-convert-snippet (Use <leader>x for convert visual selected code to snippet)             |
+ | `imap` `<C-j>` `<Plug>`   | coc-snippets-expand-jump (Use <C-j> for both expand and jump (make expand higher priority.) |
+
+
+
 #### [coc-explorer](https://github.com/weirongxu/coc-explorer)
 
 #### [coc-translator](https://github.com/voldikss/coc-translator)
