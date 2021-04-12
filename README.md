@@ -170,7 +170,7 @@ to setup the languages which you want to format on save.
 #### [coc-snippets](https://github.com/neoclide/coc-snippets)
  
  | Shortcut                  | Action                                                                                      |
- | ----                      | ----                                                                                        |
+ | :----:                      | :----:                                                                                        |
  | `Insert Mode`  `Ctrl` `l` | coc-snippets-expand(trigger snippet expand)                                                 |
  | `Visual Mode`  `Ctrl` `j` | coc-snippets-select(select text for visual placeholder of snippet)                          |
  | `Ctrl` `j`                | coc_snippet_next(jump to next placeholder, it's default of coc.nvim)                        |
