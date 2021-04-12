@@ -33,12 +33,12 @@
 			* [coc-vimlsp](#coc-vimlsp)
 			* [coc-yaml](#coc-yaml)
 	* [other coc extensions](#other-coc-extensions)
-			* [coc-marketplace](#coc-marketplace)
-			* [coc-prettier](#coc-prettier)
-				* [Update your `coc-settings.json` for format on save](#update-your-coc-settingsjson-for-format-on-save)
-			* [coc-snippets](#coc-snippets)
-			* [coc-explorer](#coc-explorer)
-			* [coc-translator](#coc-translator)
+		* [coc-marketplace](#coc-marketplace)
+		* [coc-prettier](#coc-prettier)
+			* [Update your `coc-settings.json` for format on save](#update-your-coc-settingsjson-for-format-on-save)
+		* [coc-snippets](#coc-snippets)
+		* [coc-explorer](#coc-explorer)
+		* [coc-translator](#coc-translator)
 * [vim configuration](#vim-configuration)
 
 <!-- vim-markdown-toc -->
@@ -134,7 +134,7 @@ Follow [Installation](#installation)
 
 ### other coc extensions
  
-##### [coc-marketplace](https://github.com/fannheyward/coc-marketplace)
+#### [coc-marketplace](https://github.com/fannheyward/coc-marketplace)
 [coc.nvim](https://github.com/neoclide/coc.nvim)  extensions marketplace.
 
 * search `keywords:coc.nvim` from npmjs.com, display extensions in `coc-lists`
@@ -144,7 +144,7 @@ Follow [Installation](#installation)
 
 ![coc-marketplace](https://i.loli.net/2019/06/06/5cf885c18736a85017.png) 
 
-##### [coc-prettier](https://github.com/neoclide/coc-prettier)
+#### [coc-prettier](https://github.com/neoclide/coc-prettier)
  
     you can use `:Prettier` to format current buffer.
     your can `<leader>f` for range format.
@@ -153,7 +153,7 @@ Follow [Installation](#installation)
 `javascriptreact`, `typescript`, `typescriptreact`, `json` and `graphql`.
 
 
-###### Update your `coc-settings.json` for format on save
+##### Update your `coc-settings.json` for format on save
 
 Open settings file with:
 
@@ -167,11 +167,11 @@ Add:
 
 to setup the languages which you want to format on save.
 
-##### [coc-snippets](https://github.com/neoclide/coc-snippets)
+#### [coc-snippets](https://github.com/neoclide/coc-snippets)
  
-##### [coc-explorer](https://github.com/weirongxu/coc-explorer)
+#### [coc-explorer](https://github.com/weirongxu/coc-explorer)
 
-##### [coc-translator](https://github.com/voldikss/coc-translator)
+#### [coc-translator](https://github.com/voldikss/coc-translator)
  
 
 ## vim configuration
