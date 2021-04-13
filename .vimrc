@@ -312,3 +312,7 @@ vmap <Leader>e <Plug>(coc-translator-ev)
 " replace
 nmap <Leader>r <Plug>(coc-translator-r)
 vmap <Leader>r <Plug>(coc-translator-rv)
+
+" vim-airline
+" Smarter tab line:Automatically displays all buffers when there's only one tab open. 
+let g:airline#extensions#tabline#enabled = 1

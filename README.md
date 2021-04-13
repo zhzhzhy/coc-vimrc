@@ -6,9 +6,15 @@
 <!-- vim-markdown-toc GFM -->
 
 * [Installation](#installation)
-* [Plug.vim install](#plugvim-install)
+* [Plug.vim Install](#plugvim-install)
+	* [Installation](#installation-1)
+		* [Vim](#vim)
 				* [Unix](#unix)
 				* [Windows (PowerShell)](#windows-powershell)
+		* [Neovim](#neovim)
+				* [Unix, Linux](#unix-linux)
+				* [Linux (Flatpak)](#linux-flatpak)
+				* [Windows (PowerShell)](#windows-powershell-1)
 * [Plugin explanation & key mapping](#plugin-explanation--key-mapping)
 	* [vim plugins](#vim-plugins)
 		* [coc.nvim](#cocnvim)
@@ -92,12 +98,18 @@ Note: If you are in China,change the **npm source**(Taobao registry) by followin
 npm config set registry https://registry.npm.taobao.org
 ```
 
-## Plug.vim install
+## [Plug.vim](https://github.com/junegunn/vim-plug) Install
 
-- Install [plug.vim](https://github.com/junegunn/vim-plug)
+A minimalist Vim plugin manager.
+
+<img src="https://raw.githubusercontent.com/junegunn/i/master/vim-plug/installer.gif" height="450">
+
+### Installation
 
 [Download plug.vim](https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim)
 and put it in the "autoload" directory.
+
+#### Vim
 
 ###### Unix
 
@@ -117,6 +129,30 @@ file as suggested [here][auto].
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
     ni $HOME/vimfiles/autoload/plug.vim -Force
 ```
+
+#### Neovim
+
+###### Unix, Linux
+
+```sh
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+###### Linux (Flatpak)
+
+```sh
+curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+###### Windows (PowerShell)
+
+```powershell
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+```
+
 ## Plugin explanation & key mapping
 
 ### vim plugins
