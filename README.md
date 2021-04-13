@@ -192,7 +192,7 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 
 ### For Vim
 
-1. Copy `.vimrc` and `coc-settings.json` Scripts to `$HOME/` & `$HOME/.vim/`
+1. After you install `Plug.vim`,copy `.vimrc` and `coc-settings.json` Scripts to `$HOME/` & `$HOME/.vim/`
 
 2. Reopen `Vim`
 
