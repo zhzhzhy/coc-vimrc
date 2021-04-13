@@ -9,12 +9,12 @@
 * [Plug.vim Install](#plugvim-install)
 	* [Installation](#installation-1)
 		* [Vim](#vim)
-				* [Unix](#unix)
-				* [Windows (PowerShell)](#windows-powershell)
+			* [Unix](#unix)
+			* [Windows (PowerShell)](#windows-powershell)
 		* [Neovim](#neovim)
-				* [Unix, Linux](#unix-linux)
-				* [Linux (Flatpak)](#linux-flatpak)
-				* [Windows (PowerShell)](#windows-powershell-1)
+			* [Unix, Linux](#unix-linux)
+			* [Linux (Flatpak)](#linux-flatpak)
+			* [Windows (PowerShell)](#windows-powershell-1)
 * [Plugin explanation & key mapping](#plugin-explanation--key-mapping)
 	* [vim plugins](#vim-plugins)
 		* [coc.nvim](#cocnvim)
@@ -111,7 +111,7 @@ and put it in the "autoload" directory.
 
 #### Vim
 
-###### Unix
+##### Unix
 
 ```sh
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
@@ -123,7 +123,7 @@ file as suggested [here][auto].
 
 [auto]: https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
 
-###### Windows (PowerShell)
+##### Windows (PowerShell)
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
@@ -132,21 +132,21 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 
 #### Neovim
 
-###### Unix, Linux
+##### Unix, Linux
 
 ```sh
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
-###### Linux (Flatpak)
+##### Linux (Flatpak)
 
 ```sh
 curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-###### Windows (PowerShell)
+##### Windows (PowerShell)
 
 ```powershell
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
