@@ -45,8 +45,8 @@
 		* [vim-surround](#vim-surround)
 			* [Example](#example)
 		* [vim-markdown-toc](#vim-markdown-toc)
-	* [Update existing table of contents](#update-existing-table-of-contents)
-	* [Remove table of contents](#remove-table-of-contents)
+			* [Update existing table of contents](#update-existing-table-of-contents)
+			* [Remove table of contents](#remove-table-of-contents)
 		* [vim-airline](#vim-airline)
 			* [Smarter tab line](#smarter-tab-line)
 			* [vim-airline-themes](#vim-airline-themes)
@@ -624,13 +624,13 @@ visual mode) followed by `S<p class="important">`.
 
 You can view [here](http://mazhuang.org/2015/12/05/diff-between-gfm-and-redcarpet/) to know differences between *GFM* and *Redcarpet* style toc links.
 
-### Update existing table of contents
+##### Update existing table of contents
 
 Generally you don't need to do this manually, existing table of contents will auto update on save by default.
 
 The `:UpdateToc` command, which is designed to update toc manually, can only work when `g:vmt_auto_update_on_save` turned off, and keep insert fence.
 
-### Remove table of contents
+##### Remove table of contents
 
 `:RemoveToc` command will do this for you, just remember keep insert fence option by default.
 
