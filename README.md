@@ -71,6 +71,7 @@
 			* [coc-explorer](#coc-explorer)
 			* [coc-translator](#coc-translator)
 * [vim configuration: How to use these scripts](#vim-configuration-how-to-use-these-scripts)
+* [Transitioning from Vim (*nvim-from-vim*)](#transitioning-from-vim-nvim-from-vim)
 
 <!-- vim-markdown-toc -->
 
@@ -768,3 +769,59 @@ Translation extension for [coc.nvim](https://github.com/neoclide/coc.nvim).
 4. Execute `:PlugInstall` to Finish VIM Plugin install
 
 5. Configure the rest components
+
+## Transitioning from Vim (*nvim-from-vim*)
+
+*nvim-from-vim*
+
+1. To start the transition, create your [init.vim](https://neovim.io/doc/user/init.html) (user [config](https://neovim.io/doc/user/starting.html#config)) file:
+
+```vim
+:call mkdir(stdpath('config'), 'p')
+:exe 'edit '.stdpath('config').'/init.vim'
+```
+
+2. Add these contents to the file:
+
+```vim
+    set runtimepath^=~/.vim runtimepath+=~/.vim/after
+    let &packpath = &runtimepath
+    source ~/.vimrc
+```
+
+3. Restart Nvim, your existing Vim [config](https://neovim.io/doc/user/starting.html#config) will be loaded.
+
+See |[provider-python](https://neovim.io/doc/user/provider.html#provider-python)| and |[provider-clipboard](https://neovim.io/doc/user/provider.html#provider-clipboard)| for additional software you
+might need to use some features.
+
+Your Vim configuration might not be entirely Nvim-compatible.
+See |[vim-differences](https://neovim.io/doc/user/vim_diff.html#vim-differences)| for the full [list](https://neovim.io/doc/user/eval.html#list) of changes.
+
+The |['ttymouse'](https://neovim.io/doc/user/vim_diff.html#'ttymouse')| option, for example, was removed from Nvim (mouse support
+should work without [it](https://neovim.io/doc/user/motion.html#it)). If you use the same |[vimrc](https://neovim.io/doc/user/starting.html#vimrc)| for Vim and Nvim,
+consider guarding |['ttymouse'](https://neovim.io/doc/user/vim_diff.html#'ttymouse')| in your configuration like so:
+
+```vim
+    if !has('nvim')
+        set ttymouse=xterm2
+    endif
+```
+ 
+Conversely, if you have Nvim specific configuration items, you could do
+this:
+
+```vim
+    if has('nvim')
+        tnoremap <Esc> <C-\><C-n>
+    endif
+```
+ 
+For a more granular approach use YXXYexists()|:
+
+```vim
+    if exists(':tnoremap')
+        tnoremap <Esc> <C-\><C-n>
+    endif
+```
+ 
+Now you should be able to explore Nvim more comfortably. Check |[nvim-features](https://neovim.io/doc/user/vim_diff.html#nvim-features)| for more information.
