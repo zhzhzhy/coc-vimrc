@@ -735,7 +735,7 @@ visual mode) followed by `S<p class="important">`.
 
 #### [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
 
-![](img/english.gif)
+![gif](img/english.gif)
 
 * Generate table of contents for Markdown files.
 
