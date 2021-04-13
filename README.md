@@ -20,7 +20,9 @@
 			* [Unix, Linux](#unix-linux)
 			* [Linux (Flatpak)](#linux-flatpak)
 			* [Windows (PowerShell)](#windows-powershell-1)
-* [Vim configuration: How to use these scripts](#vim-configuration-how-to-use-these-scripts)
+* [Vim & Neovim configuration: How to use these scripts](#vim--neovim-configuration-how-to-use-these-scripts)
+	* [For Vim](#for-vim)
+	* [For Neovim](#for-neovim)
 * [Neovim: Transitioning from Vim (*nvim-from-vim*)](#neovim-transitioning-from-vim-nvim-from-vim)
 * [Plugin explanation & key mapping](#plugin-explanation--key-mapping)
 	* [vim plugins](#vim-plugins)
@@ -184,19 +186,26 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
     ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
 ```
 
-## Vim configuration: How to use these scripts
+## Vim & Neovim configuration: How to use these scripts
 
 **Notice**: These config files suit my own needs,Please **DO NOT** just copy this configuration folder without really understanding about it! Please, at least, read this README file!
 
-1. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json
+### For Vim
 
-2. Reopen VIM.
+1. After you install `Plug.vim`,copy `.vimrc` and `coc-settings.json` Scripts to `$HOME/` & `$HOME/.vim/`
+
+2. Reopen `Vim`
 
 3. Wait Coc Extension installing finished
 
 4. Execute `:PlugInstall` to Finish VIM Plugin install
 
 5. Configure the rest components
+
+### For Neovim
+
+1. After you install `Plug.vim`,copy `init.vim` to `$HOME/.config/nvim/`
+2. Reopen `Neovim`
 
 ## Neovim: Transitioning from Vim (*nvim-from-vim*)
 
