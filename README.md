@@ -20,6 +20,8 @@
 			* [Unix, Linux](#unix-linux)
 			* [Linux (Flatpak)](#linux-flatpak)
 			* [Windows (PowerShell)](#windows-powershell-1)
+* [Vim configuration: How to use these scripts](#vim-configuration-how-to-use-these-scripts)
+* [Neovim: Transitioning from Vim (*nvim-from-vim*)](#neovim-transitioning-from-vim-nvim-from-vim)
 * [Plugin explanation & key mapping](#plugin-explanation--key-mapping)
 	* [vim plugins](#vim-plugins)
 		* [coc.nvim](#cocnvim)
@@ -81,8 +83,6 @@
 				* [vim-snippets](#vim-snippets)
 			* [coc-explorer](#coc-explorer)
 			* [coc-translator](#coc-translator)
-* [vim configuration: How to use these scripts](#vim-configuration-how-to-use-these-scripts)
-* [Transitioning from Vim (*nvim-from-vim*)](#transitioning-from-vim-nvim-from-vim)
 
 <!-- vim-markdown-toc -->
 
@@ -183,6 +183,76 @@ curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
     ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
 ```
+
+## Vim configuration: How to use these scripts
+
+**Notice**: These config files suit my own needs,Please **DO NOT** just copy this configuration folder without really understanding about it! Please, at least, read this README file!
+
+1. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json
+
+2. Reopen VIM.
+
+3. Wait Coc Extension installing finished
+
+4. Execute `:PlugInstall` to Finish VIM Plugin install
+
+5. Configure the rest components
+
+## Neovim: Transitioning from Vim (*nvim-from-vim*)
+
+*nvim-from-vim*
+
+1. To start the transition, create your [init.vim](https://neovim.io/doc/user/init.html) (user [config](https://neovim.io/doc/user/starting.html#config)) file:
+
+```vim
+:call mkdir(stdpath('config'), 'p')
+:exe 'edit '.stdpath('config').'/init.vim'
+```
+
+2. Add these contents to the file:
+
+```vim
+    set runtimepath^=~/.vim runtimepath+=~/.vim/after
+    let &packpath = &runtimepath
+    source ~/.vimrc
+```
+
+3. Restart Nvim, your existing Vim [config](https://neovim.io/doc/user/starting.html#config) will be loaded.
+
+See |[provider-python](https://neovim.io/doc/user/provider.html#provider-python)| and |[provider-clipboard](https://neovim.io/doc/user/provider.html#provider-clipboard)| for additional software you
+might need to use some features.
+
+Your Vim configuration might not be entirely Nvim-compatible.
+See |[vim-differences](https://neovim.io/doc/user/vim_diff.html#vim-differences)| for the full [list](https://neovim.io/doc/user/eval.html#list) of changes.
+
+The |['ttymouse'](https://neovim.io/doc/user/vim_diff.html#'ttymouse')| option, for example, was removed from Nvim (mouse support
+should work without [it](https://neovim.io/doc/user/motion.html#it)). If you use the same |[vimrc](https://neovim.io/doc/user/starting.html#vimrc)| for Vim and Nvim,
+consider guarding |['ttymouse'](https://neovim.io/doc/user/vim_diff.html#'ttymouse')| in your configuration like so:
+
+```vim
+    if !has('nvim')
+        set ttymouse=xterm2
+    endif
+```
+ 
+Conversely, if you have Nvim specific configuration items, you could do
+this:
+
+```vim
+    if has('nvim')
+        tnoremap <Esc> <C-\><C-n>
+    endif
+```
+ 
+For a more granular approach use YXXYexists()|:
+
+```vim
+    if exists(':tnoremap')
+        tnoremap <Esc> <C-\><C-n>
+    endif
+```
+ 
+Now you should be able to explore Nvim more comfortably. Check |[nvim-features](https://neovim.io/doc/user/vim_diff.html#nvim-features)| for more information.
 
 ## Plugin explanation & key mapping
 
@@ -823,72 +893,3 @@ Translation extension for [coc.nvim](https://github.com/neoclide/coc.nvim).
 | `<Leader>` `t` | echo    |
 | `<Leader>` `t` | replace |
 
-## vim configuration: How to use these scripts
-
-**Notice**: These config files suit my own needs,Please **DO NOT** just copy this configuration folder without really understanding about it! Please, at least, read this README file!
-
-1. Copy vim and coc Scripts to ~/.vimrc & ~/.vim/coc-settings.json
-
-2. Reopen VIM.
-
-3. Wait Coc Extension installing finished
-
-4. Execute `:PlugInstall` to Finish VIM Plugin install
-
-5. Configure the rest components
-
-## Transitioning from Vim (*nvim-from-vim*)
-
-*nvim-from-vim*
-
-1. To start the transition, create your [init.vim](https://neovim.io/doc/user/init.html) (user [config](https://neovim.io/doc/user/starting.html#config)) file:
-
-```vim
-:call mkdir(stdpath('config'), 'p')
-:exe 'edit '.stdpath('config').'/init.vim'
-```
-
-2. Add these contents to the file:
-
-```vim
-    set runtimepath^=~/.vim runtimepath+=~/.vim/after
-    let &packpath = &runtimepath
-    source ~/.vimrc
-```
-
-3. Restart Nvim, your existing Vim [config](https://neovim.io/doc/user/starting.html#config) will be loaded.
-
-See |[provider-python](https://neovim.io/doc/user/provider.html#provider-python)| and |[provider-clipboard](https://neovim.io/doc/user/provider.html#provider-clipboard)| for additional software you
-might need to use some features.
-
-Your Vim configuration might not be entirely Nvim-compatible.
-See |[vim-differences](https://neovim.io/doc/user/vim_diff.html#vim-differences)| for the full [list](https://neovim.io/doc/user/eval.html#list) of changes.
-
-The |['ttymouse'](https://neovim.io/doc/user/vim_diff.html#'ttymouse')| option, for example, was removed from Nvim (mouse support
-should work without [it](https://neovim.io/doc/user/motion.html#it)). If you use the same |[vimrc](https://neovim.io/doc/user/starting.html#vimrc)| for Vim and Nvim,
-consider guarding |['ttymouse'](https://neovim.io/doc/user/vim_diff.html#'ttymouse')| in your configuration like so:
-
-```vim
-    if !has('nvim')
-        set ttymouse=xterm2
-    endif
-```
- 
-Conversely, if you have Nvim specific configuration items, you could do
-this:
-
-```vim
-    if has('nvim')
-        tnoremap <Esc> <C-\><C-n>
-    endif
-```
- 
-For a more granular approach use YXXYexists()|:
-
-```vim
-    if exists(':tnoremap')
-        tnoremap <Esc> <C-\><C-n>
-    endif
-```
- 
-Now you should be able to explore Nvim more comfortably. Check |[nvim-features](https://neovim.io/doc/user/vim_diff.html#nvim-features)| for more information.
