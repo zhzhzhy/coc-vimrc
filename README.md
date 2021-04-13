@@ -112,9 +112,9 @@ for more information.
 
 ### Neovim Installation guide
 
-[Neovim websitr](https://neovim.io/)
+- [Neovim website](https://neovim.io/)
 
-[Installation Guide](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+- [Installation Guide](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
 ## coc-nvim Installation
 - First Install [coc-nvim](https://github.com/neoclide/coc.nvim)
