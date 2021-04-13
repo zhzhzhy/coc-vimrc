@@ -98,7 +98,7 @@
 
 ## Neovim Installation(Optional)
 
-![Neovim](img/neovim.png)
+[![Neovim](img/neovim-logo-300x87.png)](https://neovim.io)
 
 Neovim is a project that seeks to aggressively refactor Vim in order to:
 
@@ -469,7 +469,12 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### `<Space>`
 
-![](imges
+![](img/spaces.gif)
+ 
+- `<Space>` Around the 1st occurrences of whitespaces
+- `2<Space>` Around the 2nd occurrences
+- `-<Space>` Around the last occurrences
+- `<Enter><Enter>2<Space>` Center-alignment around the 2nd occurrences
 
 ###### `,`
 
@@ -558,7 +563,12 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### `<Space>`
 
-![](imges
+![](img/spaces.gif)
+ 
+- `<Space>` Around the 1st occurrences of whitespaces
+- `2<Space>` Around the 2nd occurrences
+- `-<Space>` Around the last occurrences
+- `<Enter><Enter>2<Space>` Center-alignment around the 2nd occurrences
 
 ###### `,`
 
@@ -777,7 +787,7 @@ The `:UpdateToc` command, which is designed to update toc manually, can only wor
 
 Lean & mean status/tabline for vim that's light as air.
 
-![img](https://github.com/vim-airline/vim-airline/wiki/screenshots/demo.gif)
+![img](img/demo.gif)
 
 When the plugin is correctly loaded, there will be a nice statusline at the
 bottom of each vim window.
@@ -786,7 +796,7 @@ bottom of each vim window.
 
 Automatically displays all buffers when there's only one tab open.
 
-![tabline](https://f.cloud.github.com/assets/306502/1072623/44c292a0-1495-11e3-9ce6-dcada3f1c536.gif)
+![tabline](img/44c292a0-1495-11e3-9ce6-dcada3f1c536.gif)
 
 This is disabled by default; add the following to your vimrc to enable the extension:
 
@@ -847,7 +857,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 * `:CocList marketplace` list all available extensions
 * `:CocList marketplace python` to search extension that name contains `python`
 
-![coc-marketplace](https://i.loli.net/2019/06/06/5cf885c18736a85017.png) 
+![coc-marketplace](img/5cf885c18736a85017.png) 
 
 ##### [coc-prettier](https://github.com/neoclide/coc-prettier)
  
@@ -898,7 +908,7 @@ This repository contains snippets files for various programming languages.
 
 Explorer extension for [coc.nvim](https://github.com/neoclide/coc.nvim)
 
-![image](https://user-images.githubusercontent.com/1709861/76720263-471be100-6777-11ea-82c1-614627097b02.png)
+![image](img/76720263-471be100-6777-11ea-82c1-614627097b02.png)
 
 * Open explorer
    ```
@@ -909,7 +919,7 @@ Explorer extension for [coc.nvim](https://github.com/neoclide/coc.nvim)
 
 Translation extension for [coc.nvim](https://github.com/neoclide/coc.nvim).
 
-![](https://user-images.githubusercontent.com/20282795/103474126-b8e31b00-4ddb-11eb-916b-2e2d7b2b29e0.png)
+![](img/103474126-b8e31b00-4ddb-11eb-916b-2e2d7b2b29e0.png)
 
 | Shortcut       | Action  |
 | ----           | ----    |
