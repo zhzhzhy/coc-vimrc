@@ -65,6 +65,8 @@
 		* [vim-airline](#vim-airline)
 			* [Smarter tab line](#smarter-tab-line)
 			* [vim-airline-themes](#vim-airline-themes)
+		* [Indent Guides](#indent-guides)
+			* [Usage](#usage-1)
 	* [coc-nvim extensions](#coc-nvim-extensions)
 		* [Language servers](#language-servers)
 			* [coc-clangd](#coc-clangd)
@@ -78,7 +80,7 @@
 			* [coc-yaml](#coc-yaml)
 		* [Other coc extensions](#other-coc-extensions)
 			* [coc-marketplace](#coc-marketplace)
-				* [Usage](#usage-1)
+				* [Usage](#usage-2)
 			* [coc-prettier](#coc-prettier)
 				* [Update your `coc-settings.json` for format on save](#update-your-coc-settingsjson-for-format-on-save)
 			* [coc-snippets](#coc-snippets)
@@ -802,6 +804,29 @@ This is disabled by default; add the following to your vimrc to enable the exten
 
 
 ##### [vim-airline-themes](https://github.com/vim-airline/vim-airline-themes)
+
+#### [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides)
+
+Indent Guides is a plugin for visually displaying indent levels in Vim.
+
+<img src="http://i.imgur.com/ONgoj.png" width="448" height="448" alt="" />
+
+##### Usage
+The default mapping to toggle the plugin is `<Leader>ig`.
+
+You can also use the following commands inside Vim:
+
+```vim
+:IndentGuidesEnable
+:IndentGuidesDisable
+:IndentGuidesToggle
+```
+
+If you would like to have indent guides enabled by default, you can add the following to your `~/.vimrc`:
+
+```vim
+let g:indent_guides_enable_on_vim_startup = 1
+```
 
 
 ### coc-nvim extensions

@@ -53,6 +53,8 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'nathanaelkane/vim-indent-guides'
+
 " Initialize plugin system
 call plug#end()
 
@@ -316,3 +318,13 @@ vmap <Leader>r <Plug>(coc-translator-rv)
 " vim-airline
 " Smarter tab line:Automatically displays all buffers when there's only one tab open. 
 let g:airline#extensions#tabline#enabled = 1
+
+
+" indent-guides
+" Use this option to customize the size of the indent guide. By default the value is set to 0, which will set the guide size to be the same as the shiftwidth. Setting this value to be larger than the shiftwidth is essentially the same as setting it to 0.
+" NOTE: This option only works for soft-tabs (spaces) and not hard-tabs.Default: 0. Values: between 0 and shiftwidth.
+" let g:indent_guides_guide_size = 1
+
+" indent-guides
+" Use this option to control whether the plugin is enabled on Vim startup.Default: 0. Values: 0 or 1.
+let g:indent_guides_enable_on_vim_startup = 1
