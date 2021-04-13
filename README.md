@@ -825,17 +825,17 @@ Translation extension for [coc.nvim](https://github.com/neoclide/coc.nvim).
     source ~/.vimrc
 ```
 
-3. Restart Nvim, your existing Vim config will be loaded.
+3. Restart Nvim, your existing Vim [config](https://neovim.io/doc/user/starting.html#config) will be loaded.
 
-See |provider-python| and |provider-clipboard| for additional software you
+See |[provider-python](https://neovim.io/doc/user/provider.html#provider-python)| and |[provider-clipboard](https://neovim.io/doc/user/provider.html#provider-clipboard)| for additional software you
 might need to use some features.
 
 Your Vim configuration might not be entirely Nvim-compatible.
-See |vim-differences| for the full list of changes.
+See |[vim-differences](https://neovim.io/doc/user/vim_diff.html#vim-differences)| for the full [list](https://neovim.io/doc/user/eval.html#list) of changes.
 
-The |'ttymouse'| option, for example, was removed from Nvim (mouse support
-should work without it). If you use the same |vimrc| for Vim and Nvim,
-consider guarding |'ttymouse'| in your configuration like so:
+The |['ttymouse'](https://neovim.io/doc/user/vim_diff.html#'ttymouse')| option, for example, was removed from Nvim (mouse support
+should work without [it](https://neovim.io/doc/user/motion.html#it)). If you use the same |[vimrc](https://neovim.io/doc/user/starting.html#vimrc)| for Vim and Nvim,
+consider guarding |['ttymouse'](https://neovim.io/doc/user/vim_diff.html#'ttymouse')| in your configuration like so:
 
 ```vim
     if !has('nvim')
@@ -860,4 +860,4 @@ For a more granular approach use YXXYexists()|:
     endif
 ```
  
-Now you should be able to explore Nvim more comfortably. Check |nvim-features| for more information.
+Now you should be able to explore Nvim more comfortably. Check |[nvim-features](https://neovim.io/doc/user/vim_diff.html#nvim-features)| for more information.
