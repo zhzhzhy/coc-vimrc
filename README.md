@@ -67,6 +67,7 @@
 			* [coc-prettier](#coc-prettier)
 				* [Update your `coc-settings.json` for format on save](#update-your-coc-settingsjson-for-format-on-save)
 			* [coc-snippets](#coc-snippets)
+				* [vim-snippets](#vim-snippets)
 			* [coc-explorer](#coc-explorer)
 			* [coc-translator](#coc-translator)
 * [vim configuration: How to use these scripts](#vim-configuration-how-to-use-these-scripts)
@@ -721,6 +722,15 @@ to setup the languages which you want to format on save.
 
 Make `<tab>` used for trigger completion, completion confirm, snippet expand and jump like VSCode.
 
+
+###### [vim-snippets](https://github.com/honza/vim-snippets)
+
+vim-snipmate default snippets (Previously snipmate-snippets)
+
+This repository contains snippets files for various programming languages.
+
+- `snippets/*`: snippets using snipMate format
+- `UltiSnips/*`: snippets using UltiSnips format
 
 ##### [coc-explorer](https://github.com/weirongxu/coc-explorer)
 
