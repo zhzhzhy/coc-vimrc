@@ -98,7 +98,7 @@
 
 ## Neovim Installation(Optional)
 
-[![Neovim](https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-logo-300x87.png)](https://neovim.io)
+[![Neovim](img/neovim-logo-300x87.png)](https://neovim.io)
 
 Neovim is a project that seeks to aggressively refactor Vim in order to:
 
@@ -338,51 +338,51 @@ You could read at least the [Quick Start](https://github.com/mg979/vim-visual-mu
 
 Insert mode with autocomplete, alignment (mappings in pic have changed, don't trust them)
 
-![Imgur](https://i.imgur.com/u5pPY5W.gif)
+![Imgur](img/u5pPY5W.gif)
 
 -------
 Undo/Redo edits and selections
 
-![Imgur](https://i.imgur.com/gwFfUxq.gif)
+![Imgur](img/gwFfUxq.gif)
 
 -------
 Alternate cursor/extend mode, motions (even %), reverse direction (as in visual mode) and extend from the back. At any time you can switch from extend to cursor mode and viceversa.
 
-![Imgur](https://i.imgur.com/ggQr1Ve.gif)
+![Imgur](img/ggQr1Ve.gif)
 
 -------
 Select inside/around brackets/quotes/etc:
 
-![Imgur](https://i.imgur.com/GAXQLao.gif)
+![Imgur](img/GAXQLao.gif)
 
 -------
 Select operator, here shown with 'wellle/targets.vim' plugin: sib, sia, saa + selection shift
 
-![Imgur](https://i.imgur.com/yM3Fele.gif)
+![Imgur](img/yM3Fele.gif)
 
 -------
 Synched column transposition
 
-![Imgur](https://i.imgur.com/9JDaLBi.gif)
+![Imgur](img/9JDaLBi.gif)
 
 -------
 Unsynched transposition (cycle all regions, also in different lines)
 
-![Imgur](https://i.imgur.com/UQOCxyf.gif)
+![Imgur](img/UQOCxyf.gif)
 
 -------
 Shift regions left and right (M-S-\<\>)
 
-![Imgur](https://i.imgur.com/Q7EF8YI.gif)
+![Imgur](img/Q7EF8YI.gif)
 
 ------
 Find words under cursor, add new words (patterns stack), navigate regions, skip them, add regions with regex.
 
-![Imgur](https://i.imgur.com/zWtelNO.gif)
+![Imgur](img/zWtelNO.gif)
 
 #### [undotree](https://github.com/mbbill/undotree)
 
-![](https://sites.google.com/site/mbbill/undotree_new.png)
+![](img/undotree_new.png)
 
 ##### Usage
 
@@ -426,7 +426,7 @@ endif
 
 **A simple, easy-to-use Vim alignment plugin.**
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/equals.gif)
+![](img/equals.gif)
 
 `ga` + **symbol** in normal or visual mode to align text based on **symbol**
 
@@ -459,7 +459,7 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### `=`
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/equals.gif)
+![](img/equals.gif)
 
 - `=` Around the 1st occurrences
 - `2=` Around the 2nd occurrences
@@ -469,7 +469,7 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### `<Space>`
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/spaces.gif)
+![](img/spaces.gif)
  
 - `<Space>` Around the 1st occurrences of whitespaces
 - `2<Space>` Around the 2nd occurrences
@@ -478,7 +478,7 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### `,`
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/commas.gif)
+![](img/commas.gif)
 
 - The predefined comma-rule places a comma right next to the preceding token
   without margin (`{'stick_to_left': 1, 'left_margin': 0}`)
@@ -486,7 +486,7 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### Using regular expression
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/regex.gif)
+![](img/regex.gif)
 
 You can use an arbitrary regular expression by
 - pressing `<Ctrl-X>` in interactive mode
@@ -495,32 +495,32 @@ You can use an arbitrary regular expression by
 
 Different ways to start
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/modes.gif)
+![](img/modes.gif)
 
 This demo shows how you can start interactive mode with visual selection or use
 non-interactive `:EasyAlign` command.
 
 ###### Aligning table cells
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/tables.gif)
+![](img/tables.gif)
 
 
 Check out various alignment options and "live interactive mode".
 
 ###### Syntax-aware alignment
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/yaml.gif)
+![](img/yaml.gif)
 
 
 Delimiters in strings and comments are ignored by default.
 
 ###### Using blockwise-visual mode
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/blockwise-visual.gif)
+![](img/blockwise-visual.gif)
 
 **A simple, easy-to-use Vim alignment plugin.**
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/equals.gif)
+![](img/equals.gif)
 
 `ga` + **symbol** in normal or visual mode to align text based on **symbol**
 
@@ -553,7 +553,7 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### `=`
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/equals.gif)
+![](img/equals.gif)
 
 - `=` Around the 1st occurrences
 - `2=` Around the 2nd occurrences
@@ -563,7 +563,7 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### `<Space>`
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/spaces.gif)
+![](img/spaces.gif)
  
 - `<Space>` Around the 1st occurrences of whitespaces
 - `2<Space>` Around the 2nd occurrences
@@ -572,7 +572,7 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### `,`
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/commas.gif)
+![](img/commas.gif)
 
 - The predefined comma-rule places a comma right next to the preceding token
   without margin (`{'stick_to_left': 1, 'left_margin': 0}`)
@@ -580,7 +580,7 @@ which is identified by a single character, such as `<Space>`, `=`, `:`, `.`,
 
 ###### Using regular expression
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/regex.gif)
+![](img/regex.gif)
 
 You can use an arbitrary regular expression by
 - pressing `<Ctrl-X>` in interactive mode
@@ -589,69 +589,69 @@ You can use an arbitrary regular expression by
 
 Different ways to start
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/modes.gif)
+![](img/modes.gif)
 
 This demo shows how you can start interactive mode with visual selection or use
 non-interactive `:EasyAlign` command.
 
 ###### Aligning table cells
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/tables.gif)
+![](img/tables.gif)
 
 
 Check out various alignment options and "live interactive mode".
 
 ###### Syntax-aware alignment
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/yaml.gif)
+![](img/yaml.gif)
 
 
 Delimiters in strings and comments are ignored by default.
 
 ###### Using blockwise-visual mode
 
-![](https://raw.githubusercontent.com/junegunn/i/master/easy-align/blockwise-visual.gif)
+![](img/blockwise-visual.gif)
 
 You can limit the scope with blockwise-visual mode.
 
 #### [calendar.vim](https://github.com/itchyny/calendar.vim)
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/image.png)
+![calendar.vim](img/image.png)
 
 Press E key to view the event list, and T key to view the task list.
 Also, press ? key to view a quick help.
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/views.png)
+![calendar.vim](img/views.png)
 
 ##### Basic Usage
 
     :Calendar
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/image0.png)
+![calendar.vim](img/image0.png)
 
     :Calendar 2000 1 1
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/image1.png)
+![calendar.vim](img/image1.png)
 
     :Calendar -view=year
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/image2.png)
+![calendar.vim](img/image2.png)
 
     :Calendar -view=year -split=vertical -width=27
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/image3.png)
+![calendar.vim](img/image3.png)
 
     :Calendar -view=year -split=horizontal -position=below -height=12
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/image4.png)
+![calendar.vim](img/image4.png)
 
     :Calendar -first_day=monday
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/image5.png)
+![calendar.vim](img/image5.png)
 
     :Calendar -view=clock
 
-![calendar.vim](https://raw.githubusercontent.com/wiki/itchyny/calendar.vim/image/image6.png)
+![calendar.vim](img/image6.png)
 
 You can switch between views with &lt; and &gt; keys.
 
@@ -671,7 +671,7 @@ Basic usage: `:Autoformat` OR `F3`
 #### [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 
 A Vim plugin which shows a git diff in the sign column. It shows which lines have been added, modified, or removed. You can also preview, stage, and undo individual hunks; and stage partial hunks. The plugin also provides a hunk text object.
-![](https://github.com/airblade/vim-gitgutter/blob/master/screenshot.png?raw=true)
+![](img/screenshot.png?raw=true)
 
 In the screenshot above you can see:
 
@@ -681,7 +681,7 @@ In the screenshot above you can see:
 
 #### [vim-surround](https://github.com/tpope/vim-surround)
 
-![](https://two-wrongs.com/image/surround_vim.gif)
+![](img/surround_vim.gif)
 
 ##### Example
 
@@ -735,7 +735,7 @@ visual mode) followed by `S<p class="important">`.
 
 #### [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
 
-![](https://github.com/mzlogin/vim-markdown-toc/blob/master/screenshots/english.gif)
+![](img/english.gif)
 
 * Generate table of contents for Markdown files.
 
@@ -787,7 +787,7 @@ The `:UpdateToc` command, which is designed to update toc manually, can only wor
 
 Lean & mean status/tabline for vim that's light as air.
 
-![img](https://github.com/vim-airline/vim-airline/wiki/screenshots/demo.gif)
+![img](img/demo.gif)
 
 When the plugin is correctly loaded, there will be a nice statusline at the
 bottom of each vim window.
@@ -796,7 +796,7 @@ bottom of each vim window.
 
 Automatically displays all buffers when there's only one tab open.
 
-![tabline](https://f.cloud.github.com/assets/306502/1072623/44c292a0-1495-11e3-9ce6-dcada3f1c536.gif)
+![tabline](img/44c292a0-1495-11e3-9ce6-dcada3f1c536.gif)
 
 This is disabled by default; add the following to your vimrc to enable the extension:
 
@@ -857,7 +857,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 * `:CocList marketplace` list all available extensions
 * `:CocList marketplace python` to search extension that name contains `python`
 
-![coc-marketplace](https://i.loli.net/2019/06/06/5cf885c18736a85017.png) 
+![coc-marketplace](img/5cf885c18736a85017.png) 
 
 ##### [coc-prettier](https://github.com/neoclide/coc-prettier)
  
@@ -908,7 +908,7 @@ This repository contains snippets files for various programming languages.
 
 Explorer extension for [coc.nvim](https://github.com/neoclide/coc.nvim)
 
-![image](https://user-images.githubusercontent.com/1709861/76720263-471be100-6777-11ea-82c1-614627097b02.png)
+![image](img/76720263-471be100-6777-11ea-82c1-614627097b02.png)
 
 * Open explorer
    ```
@@ -919,7 +919,7 @@ Explorer extension for [coc.nvim](https://github.com/neoclide/coc.nvim)
 
 Translation extension for [coc.nvim](https://github.com/neoclide/coc.nvim).
 
-![](https://user-images.githubusercontent.com/20282795/103474126-b8e31b00-4ddb-11eb-916b-2e2d7b2b29e0.png)
+![](img/103474126-b8e31b00-4ddb-11eb-916b-2e2d7b2b29e0.png)
 
 | Shortcut       | Action  |
 | ----           | ----    |
