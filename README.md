@@ -5,9 +5,14 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Installation](#installation)
+* [Vim Installation](#vim-installation)
+	* [Installation Guide](#installation-guide)
+	* [Github page](#github-page)
+* [Neovim Installation(Optional)](#neovim-installationoptional)
+	* [Neovim Installation guide](#neovim-installation-guide)
+* [coc-nvim Installation](#coc-nvim-installation)
 * [Plug.vim Install](#plugvim-install)
-	* [Installation](#installation-1)
+	* [Installation](#installation)
 		* [Vim](#vim)
 			* [Unix](#unix)
 			* [Windows (PowerShell)](#windows-powershell)
@@ -81,7 +86,33 @@
 
 <!-- vim-markdown-toc -->
 
-## Installation
+## Vim Installation
+
+### [Installation Guide](https://www.vim.org/download.php)
+
+### [Github page](https://github.com/vim/vim)
+
+## Neovim Installation(Optional)
+
+[![Neovim](https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-logo-300x87.png)](https://neovim.io)
+
+Neovim is a project that seeks to aggressively refactor Vim in order to:
+
+- Simplify maintenance and encourage [contributions](CONTRIBUTING.md)
+- Split the work between multiple developers
+- Enable [advanced UIs] without modifications to the core
+- Maximize [extensibility](https://github.com/neovim/neovim/wiki/Plugin-UI-architecture)
+
+See the [Introduction](https://github.com/neovim/neovim/wiki/Introduction) wiki page and [Roadmap]
+for more information.
+
+### Neovim Installation guide
+
+[Neovim websitr](https://neovim.io/)
+
+[Installation Guide](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+## coc-nvim Installation
 - First Install [coc-nvim](https://github.com/neoclide/coc.nvim)
 Don't forget to install `nodejs` and `npm`
 
