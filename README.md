@@ -98,7 +98,7 @@
 
 ## Neovim Installation(Optional)
 
-![Neovim](img/neovim.io)
+![Neovim](img/neovim.png)
 
 Neovim is a project that seeks to aggressively refactor Vim in order to:
 
