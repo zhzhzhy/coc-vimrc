@@ -16,7 +16,7 @@ set wildmode=list:longest,full
 "   s Maximum size of an item in Kbyte.  If zero then registers not saved
 "   '50    Marks will be remembered for the last 50 files you edited.                   
 "   <1000  Contents of registers (up to 1000# lines each) will be
-set viminfo='50,<1000,s100
+set viminfo='50,<10000,s100
 
 "====
 "====Plugins
