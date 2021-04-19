@@ -68,6 +68,7 @@
 				* [vim-airline-themes](#vim-airline-themes)
 			* [Indent Guides](#indent-guides)
 				* [Usage](#usage-1)
+			* [Markdown Preview for (Neo)vim](#markdown-preview-for-neovim)
 		* [coc-nvim extensions](#coc-nvim-extensions)
 			* [Language servers](#language-servers)
 				* [coc-clangd](#coc-clangd)
@@ -829,6 +830,17 @@ If you would like to have indent guides enabled by default, you can add the foll
 let g:indent_guides_enable_on_vim_startup = 1
 ```
 
+#### [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim)
+
+**Preview markdown on your modern browser with synchronised scrolling and flexible configuration**
+
+```vim
+" Start the preview
+:MarkdownPreview
+
+" Stop the preview"
+:MarkdownPreviewStop
+```
 
 ### coc-nvim extensions
 
