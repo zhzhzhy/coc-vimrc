@@ -3,6 +3,7 @@
 **Configuration of my coc-nvim &amp; Vimrc**
 
 
+
 <!-- vim-markdown-toc GFM -->
 
 	* [Vim Installation](#vim-installation)
