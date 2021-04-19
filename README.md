@@ -830,9 +830,9 @@ If you would like to have indent guides enabled by default, you can add the foll
 let g:indent_guides_enable_on_vim_startup = 1
 ```
 
-#### Markdown Preview for (Neo)vim
+#### [Markdown Preview for (Neo)vim](https://github.com/iamcco/markdown-preview.nvim)
 
-**Preview markdown on your modern browser with synchronised scrolling and flexible configuration*
+**Preview markdown on your modern browser with synchronised scrolling and flexible configuration**
 
 ```vim
 " Start the preview
