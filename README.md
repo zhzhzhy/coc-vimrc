@@ -838,13 +838,14 @@ let g:indent_guides_enable_on_vim_startup = 1
 " Start the preview
 :MarkdownPreview
 
-" Stop the preview"
+" Stop the preview
 :MarkdownPreviewStop
 ```
 
 ### coc-nvim extensions
 
 #### Language servers
+
 ##### [coc-clangd](https://github.com/clangd/coc-clangd)
 ##### [coc-css](https://github.com/neoclide/coc-css)
 ##### [coc-flutter](https://github.com/iamcco/coc-flutter)
