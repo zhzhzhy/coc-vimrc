@@ -1,0 +1,7 @@
+{
+  "coc.preferences.extensionUpdateCheck": "weekly",
+  "suggest.noselect": true,
+  "suggest.enablePreselect": false,
+  "suggest.triggerAfterInsertEnter": true,
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "json"]
+}
